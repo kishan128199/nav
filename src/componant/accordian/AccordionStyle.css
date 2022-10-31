@@ -1,0 +1,56 @@
+.control {
+    content: "+";
+    float: left;
+    margin-right: 10px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3 ease-in-out;
+}
+
+.control-collapse::after {
+    content: "+";
+    float: left;
+    margin-right: 10px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3 ease-in-out;
+}
+
+.control::after {
+    content: "-";
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3 ease-in-out;
+
+}
+
+
+.accordion {
+    text-align: left;
+
+}
+
+.accordion_item {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.answer_wrapper {
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 550px;
+    line-height: 25px;
+    word-spacing: 10px;
+    font-weight: 500;
+}

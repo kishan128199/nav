@@ -1,0 +1,107 @@
+.navbar_contnr {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 0.5em;
+}
+
+.nav-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.navlist-group {
+    width: 75%;
+}
+
+.nav-list {
+    margin-inline: 10px;
+    list-style: none;
+    display: inline;
+    padding-inline: 30px;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: bolder;
+    transition: 0.2s all ease-in-out;
+
+
+}
+
+.nav-list:hover,
+.nav-list:active {
+    color: #25add0;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.company-logo-nav-btn-contnr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn-contnr {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 8px;
+}
+
+.company-name {
+    color: #25add0;
+    font-family: sans-serif;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.company-name>span {
+    color: black;
+    font-weight: 700;
+}
+
+.quete-btn {
+    width: 130px;
+    height: 45px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 8px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+
+.quete-btn:hover,
+.quete-btn:focus-visible,
+.quete-btn:active {
+    background-color: #25add0;
+
+    transition: 0.3s all c;
+}

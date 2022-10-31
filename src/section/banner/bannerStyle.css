@@ -1,0 +1,71 @@
+.banner-contnr {
+
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    margin-top: 150px;
+}
+
+.banner-group {
+    width: 100%;
+    float: left;
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.banner-type {
+
+    width: 100%;
+
+    margin-left: 70px;
+
+}
+
+.banner-type>h2 {
+    font-size: 400%;
+    font-weight: 700;
+    float: left;
+}
+
+.banner-img {
+    width: 100%;
+    padding-right: 70px;
+
+}
+
+.banner-img>img {
+    width: 80%;
+    float: right;
+
+}
+
+.banner-intro {
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+}
+
+.banner-moment {
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.banner-create>h2 {
+    float: left;
+    font-weight: 700;
+    font-size: 70px;
+    width: 100%;
+    text-align: justify;
+
+}
+
+.banner-create {
+    width: 100%;
+    text-align: justify;
+}

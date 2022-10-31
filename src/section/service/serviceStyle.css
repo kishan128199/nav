@@ -1,0 +1,66 @@
+.service-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.service-title {
+    text-align: left;
+    text-align: left;
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.service-title-line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    max-width: 500px;
+}
+
+.service-detail {
+    text-align: left;
+    width: 100%;
+    max-width: 521px;
+    font-weight: 700;
+
+    text-align: left;
+    font-size: 55px;
+}
+
+.service-contnr {
+    margin-left: 70px;
+    width: 75%;
+}
+
+.tech-contnr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+}
+
+.tech-group {
+    text-align: left;
+    width: 257px;
+}
+
+.tech-group>p {
+    font-weight: 700;
+
+}
+
+.tech-group>div:nth-child(2) {
+    width: 85%;
+    height: 1px;
+    background-color: black;
+    margin-block: 15px;
+
+}
+
+.tech-list {
+    font-weight: 500;
+    line-height: 30px;
+}
