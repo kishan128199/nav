@@ -9,20 +9,17 @@ export default function Product() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (index == productData.length + 1) {
+      if (index == productData.length - 1) {
+        setIsSuffle(isSuffle ? false : true);
         setIndex(() => {
-          index = 0;
-          if (isSuffle) {
-            setIsSuffle(false);
-          } else if (!isSuffle) {
-            setIsSuffle(true);
-          }
+          index = 1;
         });
       } else {
         setIndex(index++);
         console.log(index);
       }
     }, 2000);
+    console.log(isSuffle);
     return () => clearInterval(interval);
   }, []);
   return (
