@@ -10,6 +10,7 @@ let ContextVal = createContext();
 export default function Navbar() {
   let [scroll, setScroll] = useState(null);
   let [value, setValue] = useState(null);
+
   let ref = useRef("");
 
   let myStyle = {
@@ -19,7 +20,7 @@ export default function Navbar() {
     setValue(ref.current.children[0].offsetTop);
   }, []);
 
-  window.addEventListener("scroll", (e) => {
+  window.addEventListener("scroll", e => {
     if (window.scrollY <= (value || 0)) {
       setScroll(null);
     } else {
